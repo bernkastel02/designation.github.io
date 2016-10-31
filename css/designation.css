@@ -1,0 +1,130 @@
+/*                                    
+		,--.              o               	  |     o          
+		|   | ,---. ,---. . ,---. ,---. ,---. |---  . ,---. ,---.
+		|   | |---' `---. | |   | |   | ,---| |     | |   | |   |
+		`--'  `---' `---' ` `---| `   ' `---^ `---' ` `---' `   '
+                			`---'                          	
+                						by Marisa Kirisame (nekomarisa)	
+						
+				    - Material Design Framework -
+*/
+
+/* HTML Tags */
+
+/* Card */
+card {
+	background-color: #3F51B5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    width: 320px;
+    height: 220px;
+}
+
+card card-header {
+    font-size: 250%;
+    font-family: RobotoMedium;
+    display: block;
+}
+
+card card-content {
+	font-size: 150%;
+	display: block;
+	font-family: RobotoThin;
+}
+
+card card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Navigation */
+
+navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3F51B5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+navigation nav-item {
+	float: left;
+	font-family: RobotoThin;
+}
+navigation nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+navigation nav-item.isActive {
+	background-color: #5C6BC0;
+}
+
+/* Button */
+button {
+	background-color: #3F51B5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: RobotoMedium;
+}
+
+/* Fonts */
+@font-face {
+	font-family: Aileron;
+	src: url(fonts/aileron.otf);
+}
+@font-face {
+	font-family: RobotoThin;
+	src: url(fonts/robotothin.ttf);
+}
+@font-face {
+	font-family: RobotoMedium;
+	src: url(fonts/robotomed.ttf);
+}
+
+
+/* Black Color */
+
+.black {
+	background-color: #212121;
+}
+
+.black-text {
+	color: #212121;
+}
+
+
+.black.light-1 {
+	background-color: #424242;
+}
+.black-text.light-1 {
+	color: #424242;
+}
+
+.black.light-2 {
+	background-color: #616161;
+}
+.black-text.light-2 {
+	color: #616161;
+}
+
+.black.light-3 {
+	background-color: #757575;
+}
+.black-text.light-3 {
+	color: #757575;
+}
+
